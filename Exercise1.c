@@ -9,7 +9,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int ex1(int testcase, int arr[], int count){
+int ex1(int testcase, int count){
+	int arr[5];
 	for( int i = 0; i < count; i++ ) {		
 		arr[i] = testcase % 10;
 		testcase /= 10;
@@ -131,9 +132,8 @@ int count(int n){
 
 int main(int argc, char *argv[]) {
 	int testcase = atoi(argv[1]);
-	int arr[5];
 	
-	ex1(testcase, arr, count(testcase));
+	ex1(testcase, count(testcase));
 		
 	return 0;
 }
