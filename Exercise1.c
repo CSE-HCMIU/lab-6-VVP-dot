@@ -19,7 +19,7 @@ int ex1(int testcase, int arr[], int count){
 	for( int i = count - 1; i >= 2; i-- ){
 		switch( arr[i] ) {  
 			case 0: 
-				printf("zero");
+				printf("zero ");
 				break;  
 			case 1:    
 				printf("one ");    
@@ -29,29 +29,29 @@ int ex1(int testcase, int arr[], int count){
 				break;    
 			case 3:    
 				printf("three ");    
-					break;    
+				break;    
 			case 4:    
 				printf("four ");    
-					break;    
+				break;    
 			case 5:    
 				printf("five ");    
-					break;    
+				break;    
 			case 6:    
 				printf("six ");    
-					break;    
+				break;    
 			case 7:    
 				printf("seven ");    
-					break;    
+				break;    
 			case 8:    
 				printf("eight ");    
-					break;    
+				break;    
 			case 9:    
 				printf("nine ");    
-					break;    	 
+				break;    	 
 			}
-		if( i + 1 == 4 ) printf("thousand ");
-		if( i + 1 == 3 ) printf("hundred ");		 
-		}
+	if( i + 1 == 4 ) printf("thousand ");
+	if( i + 1 == 3 ) printf("hundred ");		 
+	}
 		
 	for( int i = count - 3; i > 0; i-- ){
 		switch( arr[i] ) {  
