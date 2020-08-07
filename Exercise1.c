@@ -132,7 +132,7 @@ int count(int n){
 int main(int argc, char *argv[]) {
 	int testcase = atoi(argv[1]);
 	int arr[10];
-	
+	printf("%d\n", testcase);
 	ex1(testcase, arr, count(testcase));
 		
 	return 0;
