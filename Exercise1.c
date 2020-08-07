@@ -130,8 +130,8 @@ int count(int n){
 	return count;
 }
 
-int main(int argc, char *argv[]) {
-	int testcase = atoi(argv[1]);
+int main() {
+	int testcase = 1234;
 	
 	ex1(testcase, count(testcase));
 		
