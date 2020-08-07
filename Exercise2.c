@@ -11,7 +11,21 @@ Ex:
 #include <stdlib.h>
 
 int ex2(int n, char *str[]){
-	//your codes here
+	char temp[25];
+	for( int i = 0; i <= n; i++)
+      		gets(str[i]);
+   	for( int i = 0; i <= n; i++ ) {
+    		for( int j = i + 1 ; j <= n; j++ ){
+        		if( strcmp(str[i], str[j]) > 0 ){
+            			strcpy(temp, str[i]);
+            			strcpy(str[i], str[j]);
+            			strcpy(str[j], temp);
+         		}
+     		}
+    	}
+   	
+  	for(int i = 1; i <= n; i++)
+    		printf("%s ", str[i]);
 }
 
 int main(int argc, char *argv[]) {
