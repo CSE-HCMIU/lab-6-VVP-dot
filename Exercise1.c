@@ -12,7 +12,13 @@
 int ex1(int testcase){
 	int count;
 	int arr[5];
-	count = count(testcase);
+	int a;
+	
+	a = testcase;
+	while( a ){
+		a /= 10;
+		count++;
+	}
 	
 	for( int i = 0; i < count; i++ ) {		
 		arr[i] = testcase % 10;
@@ -156,14 +162,6 @@ int ex1(int testcase){
 			}
 		}	
 	}
-}
-int count(int n){
-	int count;
-	while( n ){
-		n /= 10;
-		count++;
-	}
-	return count;
 }
 
 int main(int argc, char *argv[]) {
