@@ -12,8 +12,6 @@ Ex:
 
 int ex2(int n, char *str[]){
 	char temp[25];
-	for( int i = 0; i <= n; i++)
-      		gets(str[i]);
    	for( int i = 0; i <= n; i++ ) {
     		for( int j = i + 1 ; j <= n; j++ ){
         		if( strcmp(str[i], str[j]) > 0 ){
