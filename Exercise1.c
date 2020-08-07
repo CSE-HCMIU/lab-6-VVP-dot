@@ -19,34 +19,34 @@ int ex1(int testcase, int arr[], int count){
 	for( int i = count - 1; i >= 2; i-- ){
 		switch( arr[i] ) {  
 			case 0: 
-				printf("zero");
+				printf(""zero");
 				break;  
 			case 1:    
-				printf("one ");    
+				printf(""one ");    
 				break;    
 			case 2:    
-				printf("two ");    
+				printf(""two ");    
 				break;    
 			case 3:    
-				printf("three ");    
+				printf(""three ");    
 					break;    
 			case 4:    
-				printf("four ");    
+				printf(""four ");    
 					break;    
 			case 5:    
-				printf("five ");    
+				printf(""five ");    
 					break;    
 			case 6:    
-				printf("six ");    
+				printf(""six ");    
 					break;    
 			case 7:    
-				printf("seven ");    
+				printf(""seven ");    
 					break;    
 			case 8:    
-				printf("eight ");    
+				printf(""eight ");    
 					break;    
 			case 9:    
-				printf("nine ");    
+				printf(""nine ");    
 					break;    	 
 			}
 		if( i + 1 == 4 ) printf("thousand ");
@@ -91,31 +91,31 @@ int ex1(int testcase, int arr[], int count){
 				printf("zero");
 				break;  
 			case 1:    
-				printf("one ");    
+				printf("one"");    
 				break;    
 			case 2:    
-				printf("two ");    
+				printf("two"");    
 				break;    
 			case 3:    
-				printf("three ");    
+				printf("three"");    
 				break;    
 			case 4:    
-				printf("four ");    
+				printf("four"");    
 				break;    
 			case 5:    
-				printf("five ");    	
+				printf("five"");    	
 				break;    
 			case 6:    
-				printf("six ");    
+				printf("six"");    
 				break;    
 			case 7:    
-				printf("seven ");    
+				printf("seven"");    
 	 			break;    
 			case 8:    
-				printf("eight ");    
+				printf("eight"");    
 				break;    
 			case 9:    
-				printf("nine ");    
+				printf("nine"");    
 				break;    	 
 		}
 	}	
