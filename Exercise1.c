@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int ex1(int testcase, int arr[], int count){
+int ex1(int n, int arr[], int count){
 	for( int i = 0; i < count; i++ ) {		
 		arr[i] = n % 10;
 		n /= 10;
