@@ -12,7 +12,7 @@
 int ex1(int testcase){
 	int count;
 	int arr[5];
-	count(testcase);
+	count = count(testcase);
 	
 	for( int i = 0; i < count; i++ ) {		
 		arr[i] = testcase % 10;
